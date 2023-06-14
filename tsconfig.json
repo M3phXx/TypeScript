@@ -1,0 +1,7 @@
+{
+    "compilerOptions": {
+        "rootDir": "./src", //! skad pobierac TS
+        "outDir": "./dist", //! gdzie zapisywac TS > JS
+        "target": "ES2015" //! jaki ES
+    }
+}
