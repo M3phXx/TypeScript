@@ -1,12 +1,6 @@
-let age: number = 29;
-age = 30;
-age = 31.5;
-let ageAsString: string = "dwadziescia dziewiec";
-ageAsString = 'dziesiec';
-ageAsString = `${age}`;
+const logAge = (age: number | string) => {
+    console.log(`Hej mam ${age} lat!`)
+}
 
-console.log(ageAsString);
-
-const add = (v1: number, v2: number) => v1 + v2;
-
-console.log(add(10, 50));
+logAge(22);
+logAge("Kappa");
